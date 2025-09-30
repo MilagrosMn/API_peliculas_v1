@@ -1,0 +1,26 @@
+{
+  "name": "api-peliculas-tmdb",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.11.0",
+    "@eslint/js": "^9.36.0",
+    "@eslint/json": "^0.13.2",
+    "@eslint/markdown": "^7.2.0",
+    "eslint": "^9.36.0",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.0"
+  }
+}
