@@ -8,13 +8,13 @@ Proyecto de **API REST con Express.js** que consume la API pública de **The Mov
 Clonar el proyecto y entrar en la carpeta:
 
 git clone <URL_REPO>
-cd api-peliculas-tmdb
+cd \API_tmdb
 
 Instalar dependencias:
 npm install
 
 Configurar variables de entorno:  
-Copiar el archivo `sample.env` a `.env` y completar con tu API key real de TMDb.
+Copiar el archivo `sample.env` a `.env` y completar con la API key de TMDb.
 cp sample.env .env
 
 Editar `.env`:
@@ -24,7 +24,7 @@ DOMAIN=http://localhost:3000
 TMDB_API_KEY=tu_api_key_real
 
 Ejecutar el servidor:
-npm run dev
+npm run start
 
 El servidor estará disponible en [http://localhost:3000](http://localhost:3000).
 
@@ -89,9 +89,11 @@ Formato uniforme:
 - `.gitignore` → incluye `.env` y `node_modules`.
 
 ---
+
 # Render 
 https://api-peliculas-v1.onrender.com
 
+---
 
 ## Autora
 Milagros Muñoz Nicosia
